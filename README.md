@@ -1,10 +1,16 @@
 ### Prerequisites
-Node JS Version 6  
-MongoDB
-Node Packages - Bower (Install Globally)
+- Node JS Version 6  
+- MongoDB
+- Node Packages - Bower (Install Globally)
 
-##### Installation - Nodejs
-McFarland, D. 2014. How to Install Node.js and NPM on a Mac. Available: http://blog.teamtree-house.com/install-node-js-npm-mac. 
+##### Installation
+- Nodejs Installation
+McFarland, D. 2014. How to Install Node.js and NPM on a Mac. Available [Link](http://blog.teamtree-house.com/install-node-js-npm-mac) 
+- MongoDB Installation [Link](https://treehouse.github.io/installation-guides/mac/mongo-mac.html)
+```
+$$ brew update
+$$ brew install mongo
+```
 
 #### Important
 Below are the versions of Nodejs, make sure to as mentioned below as after node 6 , its will give you compilation error as above node 6 javascript is ES6
@@ -26,7 +32,7 @@ $$ npm install
 Eg. var dbURI = 'mongodb://localhost/test';
 ```
 $$ show dbs;
-$$ use test; // Create and use test Database via MongoShell and configure the same in server.js   
+$$ use test; // Create and use Database (Eg. here is test) via MongoShell and configure the same in server.js   
 ```
 
 ### Make sure MongoDB Server is already running before running the application 
@@ -45,8 +51,7 @@ $$ npm start
 ```
 #### Application will be running on port 8080
 Open the browser
-Type the URL
-http://localhost:8080/
+Type the URL http://localhost:8080/
 
 
 ## Email Configuration
@@ -55,8 +60,7 @@ Connect to Internet (Good if no firewall settings are enabled)
 1. XML File Path (Email Configurations) should be changed in emailClient.js  
 2. All the paths and other necessary fields inside Email Confuration should be changed.  
    a. SMTP Server address, port, username, address  
-   b. If sending via gmail (Configure your Gmail account to send emails) Link below  
-   https://www.hostinger.com/tutorials/how-to-use-free-google-smtp-server  
+   b. If sending via gmail (Configure your Gmail account to send emails) [Link](https://www.hostinger.com/tutorials/how-to-use-free-google-smtp-server ) 
    
    Make sure you follow above steps along with below steps (Most impoerant else your email will not be sent)  
    a. Goto Google Account (Privacy) Security in the below u will find allow less secure apps (Select YES/ON)  
@@ -68,10 +72,12 @@ Common Inputs for gmail
 <authentication>true</authentication>
 ```
 
+- Email Template created Online using Email template Engine, free online Professional Email Templates [Link](https://beefree.io/)  
+
 #### References
-MongoDB, Inc. 2008. Documents. Available: https://docs.mongodb.com/manual/core/document.   
-Sending an email in Node JS – https://nodemailer.com/about/  
-Auth0, Inc. 2015. What is JSON Web Token? Available: https://jwt.io/introduction.   
+MongoDB, Inc. 2008. Documents. Available: [Link](https://docs.mongodb.com/manual/core/document)  
+Sending an email in Node JS – [Link](https://nodemailer.com/about/)  
+Auth0, Inc. 2015. What is JSON Web Token? Available: [Link](https://jwt.io/introduction)  
 
 ##### Contact 
 Mohammed Maaz  
