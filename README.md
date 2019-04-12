@@ -3,9 +3,14 @@
 - MongoDB
 - Node Packages - Bower (Install Globally)
 
-##### Installation
+##### Installation (In Mac OSx)
 - Nodejs Installation
-McFarland, D. 2014. How to Install Node.js and NPM on a Mac. Available [Link](http://blog.teamtree-house.com/install-node-js-npm-mac) 
+McFarland, D. 2014. How to Install Node.js and NPM on a Mac. Available [Link](https://medium.com/@katopz/how-to-install-specific-nodejs-version-c6e1cec8aa11) 
+```
+$$ brew install node@6
+$$ brew link node@6
+$$ node -v
+```
 - MongoDB Installation [Link](https://treehouse.github.io/installation-guides/mac/mongo-mac.html)
 ```
 $$ brew update
