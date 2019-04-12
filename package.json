@@ -1,0 +1,31 @@
+{
+  "name": "HealhAssist",
+  "version": "1.0.0",
+  "description": "Dont lose your prescriptions again",
+  "main": "server.js",
+  "scripts": {
+    "postinstall": "./node_modules/bower/bin/bower install"
+  },
+  "author": "Mohammed Maaz",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^1.0.1",
+    "body-parser": "^1.15.2",
+    "bower": "^1.8.0",
+    "chalk": "^1.1.3",
+    "express": "^4.14.0",
+    "express-jwt": "^5.1.0",
+    "jsonwebtoken": "^7.2.1",
+    "mongoose": "^4.7.2",
+    "arraylist": "^0.1.0",
+    "camaro": "^3.0.8",
+    "cheerio": "^1.0.0-rc.2",
+    "file-name": "^0.1.0",
+    "hashmap": "^2.3.0",
+    "nodemailer": "^4.4.1",
+    "path": "^0.12.7",
+    "process": "^0.11.10",
+    "stringbuilder": "0.0.11",
+    "thread-sleep": "^2.0.0"
+  }
+}

@@ -1,0 +1,21 @@
+<br/>
+<div align="center" ng-show="tagMessage">
+<span class="ubuntu-text">{{tagMessage}}</span>
+</div>
+<br/>
+<div class="form-group" >
+<label class="col-sm-3 control-label">Patient Name - ID</label >
+<div class="col-sm-9" >
+
+<input type="text" id="tagInputControl" class="form-control" take-focus ng-model="newTag.name" placeholder="Enter Name - ID Ex. XYZ-ID" /><br/>
+</div>
+	<span class="tag-name-warning ubuntu-text" style="margin-left: 4%;">
+	  Note : Patient name can only contain alphabets(a-z), numbers(0-9) and hyphen(-)
+	</span>
+</div>
+
+<div class="modal-footer">
+       <button type="button" class="btn btn-default" ng-click="$hide()">Close</button>
+       <button type="button" type="button" ng-click="createTag(newTag);"
+           class="btn btn-primary">Save Patient </button >
+</div>
