@@ -72,7 +72,7 @@ Sending an email in Node JS – https://nodemailer.com/about/
 Auth0, Inc. 2015. What is JSON Web Token? Available: https://jwt.io/introduction.   
 
 ##### Contact 
-Mohammed Maaz
+Mohammed Maaz  
 e: mmoham10@lakeheadu.ca
 
 
