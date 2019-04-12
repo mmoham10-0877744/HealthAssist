@@ -1,11 +1,13 @@
 ### Prerequisites
-Node JS V6  
+Node JS Version 6  
 MongoDB
 Node Packages - Bower (Install Globally)
 
 ##### Installation - Nodejs
 McFarland, D. 2014. How to Install Node.js and NPM on a Mac. Available: http://blog.teamtree-house.com/install-node-js-npm-mac. 
 
+#### Important
+Below are the versions of Nodejs, make sure to as mentioned below as after node 6 , its will give you compilation error as above node 6 javascript is ES6
 ```
 $$ node -v
 v6.17.0
