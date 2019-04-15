@@ -38,7 +38,7 @@ $$ npm install
 Eg. var dbURI = 'mongodb://localhost/test';
 ```
 $$ show dbs;
-$$ use test; // Create and use Database (Eg. here is test) via MongoShell and configure the same in server.js   
+$$ use test; // Create and use Database (Eg. here is test) via MongoShell and configure the same in db.js   
 ```
 
 ### Make sure MongoDB Server is already running before running the application 
@@ -64,9 +64,9 @@ Type the URL http://localhost:8080/
 Connect to Internet (Good if no firewall settings are enabled)  
 
 1. XML File Path (Email Configurations) should be changed in emailClient.js  
-2. All the paths and other necessary fields inside Email Confuration should be changed.  
+2. All the paths and other necessary fields inside Email Confuration file should be changed (emailSMSConfig.xml).  
    a. SMTP Server address, port, username, address  
-   b. If sending via gmail (Configure your Gmail account to send emails) [Link](https://www.hostinger.com/tutorials/how-to-use-free-google-smtp-server ) 
+   b. If sending via gmail (Configure your Gmail account to send emails via low level apps or from other application) [Link](https://www.hostinger.com/tutorials/how-to-use-free-google-smtp-server ) 
    
    Make sure you follow above steps along with below steps (Most impoerant else your email will not be sent)  
    a. Goto Google Account (Privacy) Security in the below u will find allow less secure apps (Select YES/ON)  
