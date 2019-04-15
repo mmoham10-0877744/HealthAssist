@@ -10,7 +10,7 @@
         <attachmentPath>/Users/mohammedmaaz/Documents/Project-WorkSpace/HealthAssistant/email</attachmentPath>
         <attachmentFileName>Report.pdf</attachmentFileName>
 		<emailBodyTemplateFileName>index.html</emailBodyTemplateFileName>
-        <fromEmailAddress>learn4survival@gmail.com</fromEmailAddress>
+        <fromEmailAddress>Enter Email Here</fromEmailAddress>
         <emailSubject>Health Assist : Receipt </emailSubject>
         <!-- Wait for 1 Seconds after sending each email / 1 second is represented as 1000 milliSec-->
         <waitingPeriod>1000</waitingPeriod>
